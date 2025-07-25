@@ -34,8 +34,8 @@ html, body {
     height: auto;
 }
 .content {
-    font-size: 3.5vw;
-    line-height: 4vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
 }
 /* Targets laptops and above */
 @media (min-width: 1025px) {
@@ -44,7 +44,7 @@ html, body {
         height: auto;
     }
     .content {
-        font-size: 1vw;
-        line-height: 1.2vw;
+        font-size: 0.8vw;
+        line-height: 1vw;
     }
 }
