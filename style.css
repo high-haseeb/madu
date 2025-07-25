@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Helvetica";
+    font-family: "HelveticaC";
     src: url("./public/Helvetica-Bold.ttf");
     font-weight: normal;
     font-style: normal;
@@ -9,7 +9,7 @@ html, body {
     padding: 0;
     margin: 0;
     width: 100%; 
-    font-family: "Helvetica";
+    font-family: "HelveticaC";
 }
 .flex-center {
     display: flex;
