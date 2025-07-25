@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("./public/Helvetica-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+html, body { 
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    font-family: "Helvetica";
+}
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    opacity: 0;
+    font-family: "HelveticaC";
+    transition: opacity 200ms ease-out;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+/* For Mobiles and Tablets */
+.title {
+    width: 22vw;
+    height: auto;
+}
+.content {
+    font-size: 3.5vw;
+    line-height: 4vw;
+}
+/* Targets laptops and above */
+@media (min-width: 1025px) {
+    .title {
+        width: 8vw;
+        height: auto;
+    }
+    .content {
+        font-size: 1vw;
+        line-height: 1.2vw;
+    }
+}
